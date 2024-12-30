@@ -86,3 +86,17 @@ img {
 .game img:hover {
   transform: scale(1.05);
 }
+
+.game-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center; /* Centers the items horizontally */
+  margin-top: 20px;
+}
+
+.game {
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
